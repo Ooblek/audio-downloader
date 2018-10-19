@@ -2,12 +2,7 @@ from __future__ import unicode_literals
 import youtube_dl 
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-<<<<<<< HEAD
 import config
-
-=======
->>>>>>> 899afff6e1fbd893c443ca85eed6efc3c653308b
-
 import os
 
 
@@ -17,11 +12,8 @@ class vals(object):
 
 
 
-<<<<<<< HEAD
+
 DEVELOPER_KEY = config.KEY
-=======
-DEVELOPER_KEY = 'AIzaSyCwR4VMHxGPazr3syo-cJv0UWcfl3rRNr4'
->>>>>>> 899afff6e1fbd893c443ca85eed6efc3c653308b
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
@@ -71,11 +63,9 @@ def youtube_search(options):
 
 
 def downloadOption(vid):
-<<<<<<< HEAD
+
 	print('\n\nWhich video\'s audio do you want to download? (1-5): ')
-=======
-	print('\n\nWhich video\'s audio do you want to download?: ')
->>>>>>> 899afff6e1fbd893c443ca85eed6efc3c653308b
+
 	choice = input()
 	choice = (int)(choice)
 	choice-=1
